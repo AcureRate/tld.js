@@ -30,9 +30,9 @@
     "update": "node ./bin/update.js",
     "version": "npm run generate-changelog && git add CHANGELOG.md",
     "prebuild": "npm run update",
-    "build": "browserify index.js --s tldjs > tld.js",
+    "build": "",
     "prebuild-min": "npm run update",
-    "build-min": "browserify index.js --s tldjs | uglifyjs -c > tld.min.js"
+    "build-min": ""
   },
   "tldjs": {
     "providers": {
