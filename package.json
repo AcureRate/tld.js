@@ -30,7 +30,7 @@
     "update": "node ./bin/update.js",
     "version": "npm run generate-changelog && git add CHANGELOG.md",
     "prebuild": "npm run update",
-    "build": "",
+    "build": "node ./bin/update.js",
     "prebuild-min": "npm run update",
     "build-min": ""
   },
